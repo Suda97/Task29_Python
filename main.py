@@ -111,7 +111,7 @@ if __name__ == '__main__':
     while True:
         gamelist = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
         score = game(gamelist, score)
-        print("Score:\nP1: " + str(score[0]) + "\nP2: " + str(score[1]))
+        print("Score:   P1: " + str(score[0]) + "   P2: " + str(score[1]))
         ans = int(input("Do You want to keep playing?\nType 1 if YES\nType 2 if NO\n"))
         if ans == 2:
             break
